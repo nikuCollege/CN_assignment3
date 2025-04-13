@@ -1,6 +1,6 @@
 # CN_assignment3
 
-General steps fro installation  
+General steps for installation  
 ``` sudo apt-get update ```  
 ```sudo apt-get install -y mininet```  
 ```sudo apt-get install openvswitch-testcontroller```  

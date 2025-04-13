@@ -13,4 +13,10 @@ To fix the problem of unsuccessful pings , implementing SPANNING TREE PROTOCOL :
 - ```sh ovs-vsctl set bridge s1 stp_enable=true```  
 - ```sh ovs-vsctl set bridge s2 stp_enable=true```  
 - ```sh ovs-vsctl set bridge s3 stp_enable=true```  
-- ```sh ovs-vsctl set bridge s4 stp_enable=true```  
+- ```sh ovs-vsctl set bridge s4 stp_enable=true```   
+
+To visualise the effect on switches :  
+```sh ovs-ofctl dump-flows s1```   
+```sh ovs-ofctl dump-flows s2```
+```sh ovs-ofctl dump-flows s3```
+```sh ovs-ofctl dump-flows s4```

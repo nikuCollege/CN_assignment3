@@ -1,5 +1,9 @@
 # CN_assignment3
 
+Members :   
+          Saumya Jaiswal   21110186  
+          Nakul Ranka      24120035 
+
 General steps for installation  
 ``` sudo apt-get update ```  
 ```sudo apt-get install -y mininet```  
